@@ -1,3 +1,4 @@
+
 import Image from 'next/image';
 import ArticleCard from '@/components/shared/article-card';
 import { Button } from '@/components/ui/button';
@@ -38,10 +39,9 @@ export default function HomePage() {
         <Image
           src="https://firestuff.proxy.beeceptor.com/images/12e1697c-1924-4c35-89c1-e7be2f8261d7.png"
           alt="Herói com Freddy Fazbear em um mundo de blocos e placa de vídeo"
-          layout="fill"
-          objectFit="cover"
+          fill
           quality={80}
-          className="z-0 filter brightness-50"
+          className="z-0 filter brightness-50 object-cover"
           data-ai-hint="FNAF minecraft"
           priority
         />
