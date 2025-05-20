@@ -7,13 +7,8 @@ import Header from '@/components/layout/header';
 import Footer from '@/components/layout/footer';
 import { Toaster } from "@/components/ui/toaster"
 
-const geistSansFont = GeistSans({
-  variable: '--font-geist-sans',
-});
-
-const geistMonoFont = GeistMono({
-  variable: '--font-geist-mono',
-});
+// GeistSans and GeistMono are objects, not functions to be called.
+// Their 'variable' property can be accessed directly.
 
 export const metadata: Metadata = {
   title: 'Pixel Powerhouse',
@@ -27,7 +22,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR" className="dark">
-      <body className={`${geistSansFont.variable} ${geistMonoFont.variable} antialiased flex flex-col min-h-screen`}>
+      <body className={`${GeistSans.variable} ${GeistMono.variable} antialiased flex flex-col min-h-screen`}>
         <Header />
         <main className="flex-grow pt-20 md:pt-24"> {/* Adjusted padding for header height */}
           {children}
