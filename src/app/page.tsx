@@ -36,13 +36,14 @@ export default function HomePage() {
       {/* Hero Section */}
       <section className="relative h-[calc(100vh-5rem)] min-h-[400px] md:min-h-[500px] lg:min-h-[600px] flex items-center justify-center text-center text-white overflow-hidden">
         <Image
-          src="https://placehold.co/1920x1080.png"
-          alt="Mundo de Minecraft em pixels"
+          src="https://firestuff.proxy.beeceptor.com/images/12e1697c-1924-4c35-89c1-e7be2f8261d7.png"
+          alt="Herói com Freddy Fazbear em um mundo de blocos e placa de vídeo"
           layout="fill"
           objectFit="cover"
           quality={80}
           className="z-0 filter brightness-50"
-          data-ai-hint="minecraft landscape"
+          data-ai-hint="FNAF minecraft"
+          priority
         />
         <div className="relative z-10 p-6 bg-black/50 rounded-lg shadow-xl max-w-3xl mx-auto">
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-4 leading-tight font-mono text-primary">
