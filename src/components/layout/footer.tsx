@@ -29,7 +29,7 @@ export default function Footer() {
           ))}
         </div>
         <p className="text-sm">
-          &copy; {currentYear} Pixel Powerhouse. Todos os direitos reservados.
+          &copy; {currentYear} 1001 Games. Todos os direitos reservados.
         </p>
         <p className="text-xs mt-1">
           Um paraíso digital para gamers e entusiastas de PC.

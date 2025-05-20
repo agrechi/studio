@@ -48,7 +48,7 @@ export default function Header() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 h-16 md:h-20 flex items-center justify-between">
           <Link href="/" passHref legacyBehavior>
             <a className="text-2xl md:text-3xl font-bold font-mono text-primary hover:text-primary/80 transition-colors">
-              Pixel Powerhouse
+              1001 Games
             </a>
           </Link>
           <div className="h-8 w-8 bg-muted rounded-md animate-pulse md:hidden"></div>
@@ -63,7 +63,7 @@ export default function Header() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 h-16 md:h-20 flex items-center justify-between">
         <Link href="/" passHref legacyBehavior>
           <a className="text-2xl md:text-3xl font-bold font-mono text-primary hover:text-primary/80 transition-colors">
-            Pixel Powerhouse
+            1001 Games
           </a>
         </Link>
 

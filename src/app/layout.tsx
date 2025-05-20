@@ -11,7 +11,7 @@ import { Toaster } from "@/components/ui/toaster"
 // Their 'variable' property can be accessed directly.
 
 export const metadata: Metadata = {
-  title: 'Pixel Powerhouse',
+  title: '1001 Games',
   description: 'Seu guia completo para Minecraft, Five Nights at Freddy\'s, PC Gaming e os melhores equipamentos de PC.',
 };
 
