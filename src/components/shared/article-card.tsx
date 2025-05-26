@@ -1,3 +1,4 @@
+
 import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
@@ -21,8 +22,8 @@ export default function ArticleCard({ title, description, imageUrl, imageAlt, da
           <Image
             src={imageUrl}
             alt={imageAlt}
-            layout="fill"
-            objectFit="cover"
+            fill // Alterado de layout="fill"
+            className="object-cover" // Adicionado object-cover aqui
             data-ai-hint={dataAiHint}
           />
         </div>
