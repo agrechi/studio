@@ -42,7 +42,7 @@ export default function HomePage() {
           fill
           quality={80}
           className="z-0 filter brightness-50 object-cover"
-          data-ai-hint="FNAF minecraft"
+          data-ai-hint="FNAF minecraft graphics"
           priority
         />
         <div className="relative z-10 p-6 bg-black/50 rounded-lg shadow-xl max-w-3xl mx-auto">
