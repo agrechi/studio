@@ -9,7 +9,7 @@ export default function HomePage() {
     {
       title: 'Top 5 Shaders para Minecraft',
       description: 'Transforme seus gráficos no Minecraft com estes shaders incríveis que elevam a experiência visual a outro nível.',
-      imageUrl: 'https://placehold.co/600x400.png', // Alterado de 'img/shader.png'
+      imageUrl: 'https://i.ibb.co/pvHTYzqC/shaders.png', // Alterado de 'img/shader.png'
       imageAlt: 'Minecraft com shaders',
       dataAiHint: 'minecraft shaders',
       link: '#', // Placeholder link
@@ -17,7 +17,7 @@ export default function HomePage() {
     {
       title: 'Guia de Placas de Vídeo 2025',
       description: 'Descubra as melhores GPUs para seu setup gamer em 2025, desde opções de entrada até as mais potentes.',
-      imageUrl: 'https://placehold.co/600x400.png',
+      imageUrl: 'https://i.ibb.co/4ZDQzH9p/video.png',
       imageAlt: 'Placa de vídeo gamer',
       dataAiHint: 'graphics card',
       link: '#', // Placeholder link
@@ -25,7 +25,7 @@ export default function HomePage() {
     {
       title: 'Construindo sua Base Perfeita no Survival',
       description: 'Dicas e truques essenciais para planejar e construir uma base funcional e segura no modo Survival do Minecraft.',
-      imageUrl: 'https://placehold.co/600x400.png',
+      imageUrl: 'https://i.ibb.co/6J0ftYDr/base.png',
       imageAlt: 'Base de Minecraft no modo Survival',
       dataAiHint: 'minecraft base',
       link: '#', // Placeholder link
@@ -37,7 +37,7 @@ export default function HomePage() {
       {/* Hero Section */}
       <section className="relative h-[calc(100vh-5rem)] min-h-[400px] md:min-h-[500px] lg:min-h-[600px] flex items-center justify-center text-center text-white overflow-hidden">
         <Image
-          src="https://firestuff.proxy.beeceptor.com/images/games/CyberpunkCity.png"
+          src="https://i.ibb.co/pj5SSgsK/hero.png"
           alt="Herói com Freddy Fazbear em um mundo de blocos e placa de vídeo"
           fill
           quality={80}
